@@ -23,27 +23,26 @@ sudo apt update && sudo apt install python3-tk python3-venv -y
 
 It is best practice to run Python projects in a virtual environment to keep your system clean.
 
-1. **Clone or enter your project folder:**
+- **Clone or enter your project folder:**
+
 ```bash
 cd Spiral
 
 ```
 
+- **Create the environment:**
 
-2. **Create the environment:**
 ```bash
 python3 -m venv venv
 
 ```
 
+- **Activate it:**
 
-3. **Activate it:**
 ```bash
 source venv/bin/activate
 
 ```
-
-
 
 ## ▶️ How to Run
 
@@ -54,18 +53,18 @@ python spiral_image.py
 
 ```
 
-> **Note:** A window will appear showing the animation. Once the drawing is complete, click anywhere inside the turtle window to close it.
+>[!NOTE]
+> A window will appear showing the animation. Once the drawing is complete, click anywhere inside the turtle window to close it.
 
 ## 👇 Code Concepts Used
 
 This script bridges the gap between code and art by using:
 
-* **Libraries**: Importing `turtle` to handle the heavy lifting of window management and drawing.
-* **Variables**: Tracking `distance` and `angle` to determine where the "pen" moves next.
-* **Loops**: Using a `while` loop to repeat drawing actions without writing hundreds of lines of code.
-* **Conditionals**: Using `if` statements to change the color based on the spiral's size and to `break` (stop) the loop when the drawing is finished.
+- **Libraries**: Importing `turtle` to handle the heavy lifting of window management and drawing.
+- **Variables**: Tracking `distance` and `angle` to determine where the "pen" moves next.
+- **Loops**: Using a `while` loop to repeat drawing actions without writing hundreds of lines of code.
+- **Conditionals**: Using `if` statements to change the color based on the spiral's size and to `break` (stop) the loop when the drawing is finished.
 
 ## ⚠️ Disclaimer
 
 This project is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss,(code-related or otherwise) that may occur from using this project, It is open-source and intended for educational use. Happy coding!. **Use it at your own risk.**
-
