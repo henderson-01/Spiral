@@ -33,14 +33,14 @@ cd Spiral
 - **Create the environment:**
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 
 ```
 
 - **Activate it:**
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 
 ```
 
