@@ -4,7 +4,7 @@ Welcome to the **Python Turtle Spiral** This script demonstrates how to create a
 
 ## 📜 Project Description
 
-The program opens a graphics window with a black background and draws an intricate spiral. To demonstrate logic flow, the drawing starts in **green** and dynamically switches to **red** as it expands, eventually stopping itself once it reaches a set size.
+The program opens a graphics window with a black background and draws an intricate spiral. To demonstrate logic flow, the drawing starts in **green** and then moves to **purple** dynamically switches to **red** as it expands, eventually stopping itself once it reaches a set size.
 
 ## 👀 Prerequisites
 

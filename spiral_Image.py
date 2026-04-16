@@ -22,7 +22,10 @@ def draw_spiral():
         angle += 1
 
         # Change color and check for exit condition
-        if angle == 100:
+        if angle == 66:
+            turtle.pencolor("purple")
+
+        if angle == 133:
             turtle.pencolor("red")
 
         if angle == 200:
