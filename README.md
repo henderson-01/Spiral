@@ -49,7 +49,7 @@ source .venv/bin/activate
 Once your virtual environment is active (you should see `(.venv)` in your terminal prompt), run the script:
 
 ```bash
-python spiral_image.py
+python spiral_Image.py
 
 ```
 
