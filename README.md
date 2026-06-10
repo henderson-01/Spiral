@@ -1,6 +1,6 @@
 # 🐍 Python Turtle Spiral
 
-Welcome to the **Python Turtle Spiral** This script demonstrates how to create a vibrant geometric pattern using Python's built-in `turtle` graphics library. It’s a perfect **"Hello World"** style project for visual learners.
+Welcome to the **Python Turtle Spiral**. This script demonstrates how to create a vibrant geometric pattern using Python's built-in `turtle` graphics library. It’s a perfect **"Hello World"** style project for visual learners.
 
 ## 📜 Project Description
 
@@ -65,6 +65,14 @@ This script bridges the gap between code and art by using:
 - **Loops**: Using a `while` loop to repeat drawing actions without writing hundreds of lines of code.
 - **Conditionals**: Using `if` statements to change the color based on the spiral's size and to `break` (stop) the loop when the drawing is finished.
 
+## 🤝 Contributing
+
+This project is part of a personal learning journey. While I am not accepting Pull Requests to the main branch, I encourage you to fork the repository and experiment with your own changes! Please see CONTRIBUTING.md for more details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## ⚠️ Disclaimer
 
-This project is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss,(code-related or otherwise) that may occur from using this project, It is open-source and intended for educational use. Happy coding!. **Use it at your own risk.**
+This project is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss (code-related or otherwise) that may occur from using this project. It is open-source and intended for educational use. Happy coding! **Use it at your own risk.**
