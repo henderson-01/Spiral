@@ -54,7 +54,11 @@ python spiral_Image.py
 ```
 
 >[!NOTE]
-> A window will appear showing the animation. Once the drawing is complete, click anywhere inside the turtle window to close it.
+> A window will appear showing the animation. Something like this.
+
+## 📸 Screenshot
+
+![screenshot spiral](./image/Screenshot.png)
 
 ## 👇 Code Concepts Used
 
