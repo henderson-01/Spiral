@@ -1,5 +1,0 @@
-# This project uses the Python Standard Library 'turtle' module.
-# No external pip dependencies are required.
-
-# Note: On Linux (Ubuntu/Debian), you may need to install the system package:
-# sudo apt install python3-tk
