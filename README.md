@@ -2,63 +2,95 @@
 
 Welcome to the **Python Turtle Spiral**. This script demonstrates how to create a vibrant geometric pattern using Python's built-in `turtle` graphics library. It’s a perfect **"Hello World"** style project for visual learners.
 
+---
+
 ## 📜 Project Description
 
 The program opens a graphics window with a black background and draws an intricate spiral. To demonstrate logic flow, the drawing starts in **green** and then moves to **purple** dynamically switches to **red** as it expands, eventually stopping itself once it reaches a set size.
 
+---
+
 ## 👀 Prerequisites
 
-This guide is tailored for **Ubuntu Desktop** users.
+### 1. Install System Dependencies (Tkinter)
 
-### 1. Install System Dependencies
+Python's `turtle` library relies on Tkinter. Installation varies by OS:
 
-Python's `turtle` library relies on a toolkit called Tkinter. On Ubuntu, this isn't always installed by default. Run the following command to ensure your system is ready:
+- **Linux (Ubuntu/Debian):**
+  ```bash
+  sudo apt update && sudo apt install python3-tk -y
+  ```
 
-```bash
-sudo apt update && sudo apt install python3-tk python3-venv -y
+- **macOS:**
+  Tkinter is usually bundled with Python. If missing, install via Homebrew:
+  ```bash
+  brew install python-tk
+  ```
 
-```
+- **Windows:**
+  Tkinter is included with the official Python installer from python.org. Ensure the "tcl/tk" option is checked during installation.
 
-### 2. Set Up a Virtual Environment
+### 2. Install uv
 
-It is best practice to run Python projects in a virtual environment to keep your system clean.
+This project uses [uv](https://docs.astral.sh/uv/) for dependency and environment management.
 
-- **Clone or enter your project folder:**
+- **macOS / Linux:**
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
+
+- **Windows:**
+  ```powershell
+  powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+---
+
+### 3. Sync Dependencies
+
+Navigate to your project folder and let `uv` handle the rest:
 
 ```bash
 cd Spiral
-
+uv sync
 ```
-
-- **Create the environment:**
-
-```bash
-python3 -m venv .venv
-
-```
-
-- **Activate it:**
-
-```bash
-source .venv/bin/activate
-
-```
+---
 
 ## ▶️ How to Run
 
-Once your virtual environment is active (you should see `(.venv)` in your terminal prompt), run the script:
+Once dependencies are synced, run the script with `uv`:
 
 ```bash
-python spiral_Image.py
+uv run spiral_Image.py
 
 ```
 
->[!NOTE]
+> [!NOTE]
 > A window will appear showing the animation. Something like this.
+
+---
 
 ## 📸 Screenshot
 
 ![screenshot spiral](./image/Screenshot.png)
+
+---
+
+## 🎨 Formatting & Linting
+
+This project uses [ruff](https://docs.astral.sh/ruff/) for fast Python linting and formatting.
+
+```bash
+# Format the code
+uv run ruff format
+
+# Check for lint issues
+uv run ruff check
+
+# Auto-fix lint issues
+uv run ruff check --fix
+
+```
+---
 
 ## 👇 Code Concepts Used
 
@@ -69,14 +101,14 @@ This script bridges the gap between code and art by using:
 - **Loops**: Using a `while` loop to repeat drawing actions without writing hundreds of lines of code.
 - **Conditionals**: Using `if` statements to change the color based on the spiral's size and to `break` (stop) the loop when the drawing is finished.
 
+---
+
 ## 🤝 Contributing
 
 This project is part of a personal learning journey. While I am not accepting Pull Requests to the main branch, I encourage you to fork the repository and experiment with your own changes! Please see CONTRIBUTING.md for more details.
 
+---
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## ⚠️ Disclaimer
-
-This project is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss (code-related or otherwise) that may occur from using this project. It is open-source and intended for educational use. Happy coding! **Use it at your own risk.**
+This project is licensed under the [MIT License](LICENSE).
